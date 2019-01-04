@@ -66,5 +66,5 @@ module.exports = async function(compare, against) {
   }).map((x) => x || 0);
 
   debug('distances', distances)
-  return distances.reduce((a, v, i) => a.v > v ? a : {v, i, text:against[i]}, {v:0, i:0, text:against[0]}).text;
+  return distances.reduce((a, value, index) => a.value > value ? a : {value, index, text:against[index]}, {value:0, index:0, text:against[0]});
 }

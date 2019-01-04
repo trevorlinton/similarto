@@ -7,7 +7,16 @@ This is a simple function that takes as a first argument a string and as a secon
 ```
 const similarto = require('@trevor.linton/similarto')
 similarto('I\'m going to france', ['To be or not to be that is the question', 'You dont see that sort of behavior in major appliances', 'I will be traveling to europe'])
-	.then((x) => console.log(x))
+	.then((x) => console.log(x.text))
 ```
 
 Note, similarto is an async func, if used without `await` keyword, you'll need to use the returned result as a promise.
+
+The value returned is:
+```
+{
+	"text":"The text that matched",
+	"index":0,
+	"value":0.324223
+}
+```
