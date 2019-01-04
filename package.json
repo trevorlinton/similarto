@@ -1,5 +1,5 @@
 {
-  "name": "similarto",
+  "name": "@trevor.linton/similarto",
   "version": "1.0.0",
   "description": "Compares a string against an array of strings and picks the most similar",
   "main": "index.js",
