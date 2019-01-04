@@ -1,0 +1,39 @@
+{
+  "name": "similarto",
+  "version": "1.0.0",
+  "description": "Compares a string against an array of strings and picks the most similar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorlinton/similarto.git"
+  },
+  "keywords": [
+    "similar",
+    "nlp",
+    "like",
+    "textmatch",
+    "closest",
+    "similarto",
+    "associated",
+    "text",
+    "words"
+  ],
+  "author": "Trevor Linton",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trevorlinton/similarto/issues"
+  },
+  "homepage": "https://github.com/trevorlinton/similarto#readme",
+  "dependencies": {
+    "compromise": "^11.12.4",
+    "debug": "^4.1.1",
+    "natural": "^0.6.3",
+    "wordnet-db": "^3.1.11"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
